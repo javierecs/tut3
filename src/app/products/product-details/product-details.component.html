@@ -1,0 +1,13 @@
+<div>
+    <h1>Detalles de productos</h1>
+    <hr/>
+    <div class="card mt-3 p-3" >
+        <h2>
+            {{product.name}}
+        </h2>
+        <div>Category: {{product.category}}</div>
+        <div style="font-style: italic;">Description: "{{product.description}}"</div>
+        <div>Price: ${{product.price}} MXN</div>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="onGoBack()">Go back</button>
+</div> 
